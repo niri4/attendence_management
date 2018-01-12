@@ -6,9 +6,9 @@ the App used to manage the attendence of employee
 * Admin DashBoard
 
 # Models
-* User - Devise
+* xUser - Devise
 * Attendence_log - User_PIN string Verify_Type string Verify_Time datetime Status string
-* AdminUser - STI
+* xAdminUser - STI
 
 # UI
 * Bootstrap
