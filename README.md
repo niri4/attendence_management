@@ -1,24 +1,14 @@
-# README
+# Attendence App
+the App used to manage the attendence of employee
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# workflow
+* Role Management
+* Admin DashBoard
 
-Things you may want to cover:
+# Models
+* User - Devise
+* Attendence_log - User_PIN string Verify_Type string Verify_Time datetime Status string
+* AdminUser - STI
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# UI
+* Bootstrap
