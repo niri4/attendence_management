@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20180112203506) do
     t.string "last_sign_in_ip"
     t.string "name"
     t.string "attendence_id"
+    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
