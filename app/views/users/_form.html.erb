@@ -32,6 +32,12 @@
 </div>
 
 <div class="form-group">
+  <%= f.label :role %><br>
+  <%= f.select(:role, @roles.keys.to_a, { prompt: "Please Select" ,class: "form-control"})%>
+</div>
+
+
+<div class="form-group">
     <%= f.submit "submit",class: "btn btn-success btn-block",id: 'submit'%>
 </div>
 <% end %>
